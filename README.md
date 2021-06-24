@@ -8,9 +8,11 @@ This repository contains sorting and path finding visualizer built using Pygame 
 ### A* algorithm
 ![streamlit-app-2021-06-24-19-06-43](https://user-images.githubusercontent.com/22033852/123276869-341fc100-d523-11eb-9ec7-b66c9cad0484.gif)
 
-### Merge Sort algorithm
+### Quick Sort algorithm
+![streamlit-app-2021-06-25-00-06-81](https://user-images.githubusercontent.com/22033852/123315848-ce92fb00-d549-11eb-8fb6-0a081ddcbab9.gif)
 
-### Bubble Sort algorithm
+### Heap Sort algorithm
+![streamlit-app-2021-06-25-00-06-84](https://user-images.githubusercontent.com/22033852/123316958-18c8ac00-d54b-11eb-8ed5-2d9a0e4e405c.gif)
 
 # Quickstart
 Clone the github repo.
