@@ -5,7 +5,7 @@ This repository contains sorting and path finding visualizer built using Pygame 
 BFS algorithm
 
 A* algorithm
-
+![streamlit-app-2021-06-24-19-06-55](https://user-images.githubusercontent.com/22033852/123276015-6f6dc000-d522-11eb-8e67-70762954ae8a.gif)
 Merge Sort algorithm
 
 Bubble Sort algorithm
