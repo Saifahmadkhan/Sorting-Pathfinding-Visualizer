@@ -3,7 +3,8 @@ from collections import deque
 
 WHITE = 255, 255, 255
 BLACK = 0, 0, 0
-LIGHT_BLUE = 25, 120, 250
+LIGHT_BLUE = 189, 201, 225
+DARK_BLUE = 0, 0, 255
 RED = 255, 0, 0
 GREEN = 0, 255, 0
 
@@ -141,13 +142,15 @@ def main():
                 spot = grid[i][j]
                 spot.show(win, WHITE)
                 if spot in path:
-                    spot.show(win, (25, 120, 250))
+                    spot.show(win, LIGHT_BLUE)
                 elif spot.visited:
-                    spot.show(win, (255, 0, 0))
+                    spot.show(win, RED)
                 if spot in queue:
-                    spot.show(win, (0, 255, 0))
+                    spot.show(win, GREEN)
+                if spot == start:
+                    spot.show(win, DARK_BLUE)
                 if spot == end:
-                    spot.show(win, (0, 120, 255))
+                    spot.show(win, DARK_BLUE)
                 
                 
         pygame.display.flip()
